@@ -1,0 +1,72 @@
+.graphSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.graphSection h1 {
+    font-family: "Cosmic Octo";
+    font-size: 58px;
+    word-spacing: -30px;
+    text-align: center;
+}
+
+.graphSection .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+
+.graphSection p {
+    text-align: center;
+    width: 550px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.graphSection #cap {
+    background-color: #008080;
+    width: auto;
+    padding: 4px 10px;
+    color: #f9fdfe;
+    border-radius: 200px;
+    font-size: 14px;
+}
+
+.graphSection img {
+    height: 300px;
+    margin-top: 30px;
+}
+
+
+@media (max-width:930px) {
+    .graphSection{
+        margin-top: 100px;
+    }
+    .graphSection h1 {
+        font-size: 40px;
+        word-spacing: -25px;
+    }
+
+    .graphSection #cap {
+        font-size: 12px;
+    }
+
+    .graphSection p {
+        width: auto;
+        font-size: 14px;
+        padding: 0px 20px;
+    }
+
+    .graphSection img {
+        width: 380px;
+        height: 310px;
+        content: url("./assets/graph2.png");
+    }
+
+}

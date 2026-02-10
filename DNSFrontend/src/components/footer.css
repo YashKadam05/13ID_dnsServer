@@ -1,0 +1,93 @@
+.footerSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+}
+
+.footerSection h1 {
+    font-family: "Cosmic Octo";
+    font-size: 27px;
+    word-spacing: -15px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.footerSection .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #f9fdfe;
+    /* border: 1px solid black; */
+}
+
+.footerSection p {
+    text-align: center;
+    width: 550px;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #f9fdfe92;
+}
+
+
+.footerSection .marque {
+    /* background-color: blue; */
+    width: 100%;
+    overflow: hidden;
+    display: inline-flex;
+    mask-image: linear-gradient(to right, transparent, black 25%, black 75%, transparent);
+    margin: 90px 0px;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0)
+    }
+
+    to {
+        transform: translateX(-100%)
+    }
+}
+
+.footerSection .slidee {
+    display: inline-flex;
+    animation: 35s slide infinite linear;
+}
+
+.footerSection .box {
+    /* 200 400 */
+    height: 100px;
+    width: 250px;
+    margin: 10px;
+    /* background-color: red; */
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerSection .box img {
+    height: 100px;
+}
+
+@media (max-width:930px) {
+    .footerSection h1 {
+        font-size: 25px;
+        word-spacing: -10px;
+        margin-top: 0px;
+    }
+
+    .footerSection p {
+        width: auto;
+        font-size: 10px;
+        padding: 0px 20px;
+    }
+
+    .footerSection .box {
+        width: 200px;
+    }
+}

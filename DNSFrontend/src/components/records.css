@@ -1,0 +1,107 @@
+.recordSection {
+    margin-top: 100px;
+}
+
+.recordSection h1 {
+    font-family: "Cosmic Octo";
+    font-size: 58px;
+    word-spacing: -30px;
+    text-align: center;
+}
+
+.recordSection .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+
+.recordSection p {
+    text-align: center;
+    width: 550px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.recordSection #cap {
+    background-color: #008080;
+    width: auto;
+    padding: 4px 10px;
+    color: #f9fdfe;
+    border-radius: 200px;
+    font-size: 14px;
+}
+
+.recordSection table {
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.recordSection tbody {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.recordSection tr {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.recordSection th {
+    font-weight: normal;
+}
+
+
+.recordSection th,
+.recordSection td {
+    border-bottom: 2px solid #f1f1f1;
+    /* text-align: center; */
+    font-size: 16px;
+    padding: 13px 25px;
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+
+.recordSection #thead {
+    background-color: #f1f1f1;
+}
+
+
+@media (max-width:600px) {
+    .recordSection {
+        margin-top: 0px;
+    }
+
+    .recordSection h1 {
+        font-size: 40px;
+        word-spacing: -25px;
+    }
+
+    .recordSection #cap {
+        font-size: 12px;
+    }
+
+    .recordSection p {
+        width: auto;
+        font-size: 14px;
+        padding: 0px 20px;
+    }
+
+    .recordSection table {
+        margin: 0px 30px;
+    }
+
+    .recordSection th,
+    .recordSection td {
+        font-size: 12px;
+        padding: 15px 8px;
+        width: auto;
+    }
+
+}

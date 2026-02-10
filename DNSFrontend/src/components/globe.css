@@ -1,0 +1,118 @@
+.globeSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
+
+.globeSection h1 {
+    font-family: "Cosmic Octo";
+    font-size: 58px;
+    word-spacing: -30px;
+    text-align: center;
+}
+
+.globeSection .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #f9fdfe;
+    /* border: 1px solid black; */
+}
+
+.globeSection p {
+    text-align: center;
+    width: 550px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.globeSection #cap {
+    background-color: #464e6f;
+    width: auto;
+    padding: 4px 10px;
+    color: #f9fdfe;
+    border-radius: 200px;
+    font-size: 14px;
+    margin-top: 60px;
+}
+
+.globeSection .globeVid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 20px;
+    height: 350px;
+    width: 400px;
+}
+
+.globeSection video {
+    height: 400px;
+}
+
+.GSCap1,
+.GSCap2 {
+    background-color: black;
+    height: 30px;
+    border-top-right-radius: 100px;
+}
+
+.GSCap1 {
+    width: 200px;
+    margin-top: 100px;
+}
+
+.GSCap2 {
+    width: 400px;
+}
+
+@media (max-width:930px) {
+
+    .GSCap1,
+    .GSCap2 {
+        height: 20px;
+        border-top-right-radius: 10px;
+    }
+
+    .GSCap1 {
+        width: 100px;
+        margin-top: 100px;
+    }
+
+    .GSCap2 {
+        width: 200px;
+    }
+
+    .globeSection h1 {
+        font-size: 40px;
+        word-spacing: -25px;
+    }
+
+    .globeSection #cap {
+        font-size: 12px;
+        margin-top: -150px;
+    }
+
+    .globeSection p {
+        width: auto;
+        font-size: 14px;
+        padding: 0px 20px;
+    }
+
+    .globeSection .globeVid {
+        /* border: 1px solid white; */
+        height: 330px;
+        width: 370px;
+    }
+
+    .globeSection video {
+        height: 350px;
+    }
+
+}
